@@ -1,0 +1,179 @@
+html,
+body {
+  font-family: "Lato", sans-serif;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+}
+
+.hero.mainheader {
+  background: #0f7aff url("/img/header.svg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.hero.posterheader {
+  background: #fff url("/img/posterheader.svg") center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000;
+}
+
+.postersection {
+  background: #f7f7f7;
+}
+
+.is-info .title.posterheading,
+.is-info.booksheading {
+  color: black;
+}
+
+.navbar-menu {
+  background-color: #0f7aff;
+}
+
+a.navbar-item:hover,
+a.navbar-item.is-active,
+.navbar-link:hover,
+.navbar-link.is-active {
+  background-color: #0f7aff;
+}
+
+.notification.is-primary {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar {
+  background: #0f7aff;
+}
+
+a.navbar-item {
+  color: #fff;
+  text-align: center;
+}
+
+a.navbar-item:hover {
+  color: rgb(187, 255, 0);
+}
+
+a.navbar-item.is-active {
+  color: #fff;
+}
+
+.fa-twitter,
+.fa-facebook {
+  color: #fff;
+}
+
+.posters {
+  background-color: #83ffd5;
+}
+
+.books {
+  background-color: #ffa883;
+}
+
+.is-icon {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+h1.lead {
+  margin-bottom: 65px;
+  margin-top: 15px;
+}
+
+a.itemhover {
+  color: #000;
+}
+
+.itemhover {
+  box-shadow: none;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.itemhover:hover {
+  box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+.column {
+  padding: 1.75rem;
+}
+
+.border-shadow {
+  box-shadow: 0 8px 33px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 8px;
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .reverse-in-mobile {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.media {
+  padding-top: 20px;
+}
+
+.media + .media {
+  border-top: none;
+  margin-top: 5px;
+  padding-top: 0;
+}
+
+.is-vertical-center {
+  display: flex;
+  align-items: center;
+}
+
+.image-box {
+  width: 75%;
+}
+
+.columns.thumbnail img {
+  border: 1px solid #c9c9c9;
+}
+
+.size h1,
+.size .button,
+.size p {
+  margin-bottom: 10px;
+}
+
+.img2 img {
+  width: 50%;
+}
+
+.title.nopad {
+  padding: 0;
+  margin: 0;
+}
+
+.morepad {
+  line-height: 2rem;
+}
+
+p.desc {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.section.nopad,
+.hero-body.nopad {
+  padding: 1rem 1.5rem;
+}
+
+.buybutton {
+  margin-top: 25px;
+}
+
+.s img {
+  width: 75%;
+}
