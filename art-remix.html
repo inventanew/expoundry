@@ -72,8 +72,7 @@
       <div class="section ">
         <div class="columns ">
           <div class="column has-text-centered detail ">
-            <img class="image-box border-shadow drift-demo-trigger " data-zoom="img/art-remix/mainposter.png" src="img/art-remix/mainposter.png"
-              alt=" ">
+            <img class="image-box border-shadow drift-demo-trigger " data-zoom="img/ar/mainposter.png" src="img/ar/mainposter.png" alt="art remix poster">
           </div>
           <div class="column feature-box ">
             <h1 class="title ">
@@ -91,7 +90,7 @@
               <div class="media-content ">
                 <div class="content ">
                   <p>
-                    <strong>Visual overview of Design Synectics</strong>
+                    <strong>Visual overview of many key parts of the Design Synectics book</strong>
                   </p>
                 </div>
               </div>
@@ -125,7 +124,156 @@
               </div>
             </article>
             <!-- buy now button *********************************************************************** -->
+            <div id='product-component-23523d328fb'></div>
+            <script type="text/javascript">
+              /*<![CDATA[*/
 
+              (function () {
+                var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
+                if (window.ShopifyBuy) {
+                  if (window.ShopifyBuy.UI) {
+                    ShopifyBuyInit();
+                  } else {
+                    loadScript();
+                  }
+                } else {
+                  loadScript();
+                }
+
+                function loadScript() {
+                  var script = document.createElement('script');
+                  script.async = true;
+                  script.src = scriptURL;
+                  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(
+                    script);
+                  script.onload = ShopifyBuyInit;
+                }
+
+                function ShopifyBuyInit() {
+                  var client = ShopifyBuy.buildClient({
+                    domain: 'expoundry.myshopify.com',
+                    apiKey: '28b73024726be88549e3d3c866c9cd37',
+                    appId: '6',
+                  });
+
+                  ShopifyBuy.UI.onReady(client).then(function (ui) {
+                    ui.createComponent('product', {
+                      id: [581227249708],
+                      node: document.getElementById('product-component-23523d328fb'),
+                      moneyFormat: '%24%7B%7Bamount%7D%7D',
+                      options: {
+                        "product": {
+                          "variantId": "all",
+                          "width": "240px",
+                          "contents": {
+                            "img": false,
+                            "imgWithCarousel": false,
+                            "title": false,
+                            "variantTitle": false,
+                            "price": false,
+                            "description": false,
+                            "buttonWithQuantity": false,
+                            "quantity": false
+                          },
+                          "styles": {
+                            "product": {
+                              "text-align": "left",
+                              "@media (min-width: 601px)": {
+                                "max-width": "100%",
+                                "margin-left": "0",
+                                "margin-bottom": "50px"
+                              }
+                            },
+                            "button": {
+                              "background-color": "#1d7dfb",
+                              ":hover": {
+                                "background-color": "#1a71e2"
+                              },
+                              ":focus": {
+                                "background-color": "#1a71e2"
+                              }
+                            },
+                            "compareAt": {
+                              "font-size": "12px"
+                            }
+                          }
+                        },
+                        "cart": {
+                          "contents": {
+                            "button": true
+                          },
+                          "styles": {
+                            "button": {
+                              "background-color": "#1d7dfb",
+                              ":hover": {
+                                "background-color": "#1a71e2"
+                              },
+                              ":focus": {
+                                "background-color": "#1a71e2"
+                              }
+                            },
+                            "footer": {
+                              "background-color": "#ffffff"
+                            }
+                          }
+                        },
+                        "modalProduct": {
+                          "contents": {
+                            "img": false,
+                            "imgWithCarousel": true,
+                            "variantTitle": false,
+                            "buttonWithQuantity": true,
+                            "button": false,
+                            "quantity": false
+                          },
+                          "styles": {
+                            "product": {
+                              "@media (min-width: 601px)": {
+                                "max-width": "100%",
+                                "margin-left": "0px",
+                                "margin-bottom": "0px"
+                              }
+                            },
+                            "button": {
+                              "background-color": "#1d7dfb",
+                              ":hover": {
+                                "background-color": "#1a71e2"
+                              },
+                              ":focus": {
+                                "background-color": "#1a71e2"
+                              }
+                            }
+                          }
+                        },
+                        "toggle": {
+                          "styles": {
+                            "toggle": {
+                              "background-color": "#1d7dfb",
+                              ":hover": {
+                                "background-color": "#1a71e2"
+                              },
+                              ":focus": {
+                                "background-color": "#1a71e2"
+                              }
+                            }
+                          }
+                        },
+                        "productSet": {
+                          "styles": {
+                            "products": {
+                              "@media (min-width: 601px)": {
+                                "margin-left": "-20px"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    });
+                  });
+                }
+              })();
+              /*]]>*/
+            </script>
           </div>
 
         </div>
@@ -152,15 +300,15 @@
         <div class="columns thumbnail ">
           <div class="column has-text-centered l">
             <h1 class="is-size-4 has-text-weight-bold ">24 x 36</h1>
-            <img src="img/art-remix/12x18sm.png" alt=" ">
+            <img src="img/ar/12x18sm.png" alt=" ">
           </div>
           <div class="column has-text-centered m">
             <h1 class="is-size-4 has-text-weight-bold ">18 x 24</h1>
-            <img src="img/art-remix/18x24sm.png" alt=" ">
+            <img src="img/ar/18x24sm.png" alt=" ">
           </div>
           <div class="column has-text-centered s">
             <h1 class="is-size-4 has-text-weight-bold ">12 x 18</h1>
-            <img src="img/art-remix/24x36sm.png" alt=" ">
+            <img src="img/ar/24x36sm.png" alt=" ">
           </div>
         </div>
       </div>
@@ -185,7 +333,9 @@
     <div class="container">
       <div class="columns">
         <div class="column has-text-centered">
-          <a class="button is-link is-medium is-rounded" href="https://www.amazon.com/Art-Synectics-Stimulating-Creativity/dp/0871921510/ref=sr_1_2?s=books&ie=UTF8&qid=1519062514&sr=1-2&keywords=design+synectics&dpID=51-7TmcUvFL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch">Buy</a>
+          <a class="button is-link is-normal is-rounded" href="https://www.amazon.com/Art-Synectics-Stimulating-Creativity/dp/0871921510/ref=sr_1_2?s=books&ie=UTF8&qid=1519062514&sr=1-2&keywords=design+synectics&dpID=51-7TmcUvFL&preST=_SX218_BO1,204,203,200_QL40_&dpSrc=srch">Buy</a>
+          <br/>
+          <br/>
           <img src="img/artbook.png" alt="">
         </div>
       </div>
